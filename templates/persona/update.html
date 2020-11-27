@@ -1,0 +1,8 @@
+<h1>updateview empleado</h1>
+
+<form method="POST">
+    {% csrf_token %}
+        <!-- form is the django form build by default with the updateview -->
+        {{form.as_p}}
+        <button type="submit">Actualizar</button>
+</form>
