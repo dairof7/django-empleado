@@ -1,3 +1,23 @@
-<h1>hola</h1>
+<!-- this charge the static dir -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- here select the folder and the file of style -->
+    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+</head>
+<body>
+    <h1 class="ejemplo1">hola</h1>
+    <!-- Anchors (links) -->
+<a href="about.html" class="button">Learn More</a>
+<a href="#features" class="button">View All Features</a>
+    <button type="button" class="success button">Save</button>
+<button type="button" class="alert button">Delete</button>
+</body>
+</html>
 
 

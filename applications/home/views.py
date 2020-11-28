@@ -7,6 +7,9 @@ from .forms import PruebaForm
 class PruebaView(TemplateView):
     template_name = "home/prueba.html"
 
+class ResumeFoundationView(TemplateView):
+    template_name = "home/resume_foundation.html"
+
 
 class PruebaListView(ListView):
 
